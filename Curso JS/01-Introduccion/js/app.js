@@ -11,9 +11,6 @@
 //     alert("Hola Mundo")
 // </script> -->
 
-
-
-
 // <!-- 03 - JavaScript Externo 
 //     Usualmente tu código JavaScript se recomienda colocarlo en un archivo externo 
 //     veamos como hacerlo
@@ -21,8 +18,6 @@
 
 
 alert("Hola Mundo")
-/* 'use strict'; */
-
 
 // 04 - Veamos como crear nuestro primer programa en JS
 const nombre = prompt('Cual es tu nombre?');
@@ -59,7 +54,7 @@ console.table([1, 2, 3, 4]);
 console.error("Algo salió mal");
 
 // Limpiar la consola
-console.clear();
+//console.clear();
 
 // O enviar advertencias
 console.warn("Eso no esta permitido");
@@ -103,3 +98,24 @@ console.log('ok')
 //         "semi": ["error", "always"] // Muestra errores de código o también errores de código
 //     }
 // }
+
+console.log("¡Hola, JavaScript!")
+console.log('¡Hola, JavaScript!')
+console.log(`¡Hola, JavaScript!`)
+
+// console.log("¡Hola, JavaScript!")
+
+/*
+console.log("¡Hola, JavaScript!")
+console.log('¡Hola, JavaScript!')
+console.log(`¡Hola, JavaScript!`)
+*/
+
+console.log("5")
+console.log(5)
+console.log(5 + 2)
+console.log(5 - 2)
+console.log(5 * 2)
+console.log(5 / 2)
+console.log(5 % 2)
+console.log(5 ** 2)
