@@ -9,7 +9,7 @@ luego debe finalizar. */
 
 let avanzaCanguro = 3;
 
-for (let canguro = 1; canguro <= 17; canguro++){
+for (let canguro = 1; canguro <= 17; canguro++) {
     console.log(`Hola, el canguro a saltado ${canguro} ves y avanzo ${avanzaCanguro} metros`)
-    avanzaCanguro = avanzaCanguro+3
+    avanzaCanguro = avanzaCanguro + 3
 }

@@ -1,12 +1,19 @@
-/* Nuestros usuarios tienen perros.
-y quieren saber que edad de perro tienen sus mascotas
-un año de humano equivale a siete de perro
-pregunta a los usuarios que edad tiene su perro
- y dile la edad canina */
+/* Ejer 1
+Calcula cuantas horas le llevaria llegar a la luna a una nave espacial y 
+guarda el resultado en una variable
+La distancia desde la tierra hasta la luna es de 384.400 km
+La velocidad de la nave es de 1225 km por hora 
 
- let edad = prompt("Que edad tiene tu perro")
+fórmula básica de tiempo = distancia / velocidad. */
 
- edad = parseInt(edad)
- let neweEdad = edad * 7
+let distancia = 384400;
+let velocidad = 1225;
+let tiempoHoras = distancia / velocidad;
 
- alert(`tu perro tiene ${neweEdad} años en edad de perro`)
+let redondear = tiempoHoras.toFixed(2)// quitarle el 0.
+
+let horas = Math.floor(redondear) // saco las horas
+
+let minutos = Math.round((tiempoHoras - horas) * 60)
+
+alert("Si vas de la tierra a la luna, te demorarias " + horas + " horas " + " y " + minutos + " minutos ")

@@ -25,6 +25,7 @@ do {
         contador++
 
     } else {
+        document.write()
         console.log("la media es " + numeroSumado / contador)
         console.log("la suma es " + numeroSumado)
     }
