@@ -1,0 +1,14 @@
+--Intro
+variables
+tipo de datos
+consvension de tipos Castin y coercion
+operadores de comparacion
+operadores logicos
+Ejercicios-----------
+--Estructura de control y logica
+codicionales (IF. IF ELSE, Switch)
+bucles (do while, for, while)
+Ejercicios-----------
+
+NaN es Not-A-Number (No es Un Número) 
+
