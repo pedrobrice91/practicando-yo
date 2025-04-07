@@ -1,6 +1,11 @@
 // Funciones que retornan valores
 
-// Actualmente hemos tenido funciones que envian datos a la consola, ya cuando veamos la parte del DOM algunas funciones van a validar formularios y seguramente ejecutaran todo el código ahí, pero también tendremos funciones que retornan valores para pasarlos hacia otras funciones o hacer algo más...
+// Actualmente hemos tenido funciones que envian
+//  datos a la consola, ya cuando veamos la parte del
+//  DOM algunas funciones van a validar formularios y 
+// seguramente ejecutaran todo el código ahí, pero también
+//  tendremos funciones que retornan valores para pasarlos 
+// hacia otras funciones o hacer algo más...
 
 function sumar(a, b) {
     return a + b;

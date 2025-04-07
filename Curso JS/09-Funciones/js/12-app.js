@@ -18,5 +18,6 @@ console.log(nuevoArray);
 console.log(nuevoArray2);
 
 
-// Los arrow functions si no se coloca el return y queda en una sola linea dan por implicito el return.. en el map
+// Los arrow functions si no se coloca el return y queda en una sola linea dan por 
+// implicito el return.. en el map
 

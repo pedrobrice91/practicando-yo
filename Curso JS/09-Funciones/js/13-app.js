@@ -9,7 +9,8 @@ const reproductor = {
     crearPlaylist: nombre =>  console.log(`Creando la Playlist ${nombre}`),
     reproducirPlaylist: nombre =>  console.log(`Reproduciendo la Playlist ${nombre}`),
 
-    // También existen los Set y Get si tienes experiencia con esos términos, y si no, set es para añadir un valor, get es para obtenerlo...
+    // También existen los Set y Get si tienes experiencia con esos términos, 
+    // y si no, set es para añadir un valor, get es para obtenerlo...
 
     set nuevaCancion(cancion) {
         this.cancion = cancion;

@@ -9,6 +9,14 @@ Ejercicios-----------
 codicionales (IF. IF ELSE, Switch)
 bucles (do while, for, while)
 Ejercicios-----------
+Funciones
+Parametros(rest)
+funciones callback
+funciones anidadas
+ambito, scope
 
+Arrow function y enlace léxico
+Contextos de ejecución y scope chain
+¿Qué es Closure?
 NaN es Not-A-Number (No es Un Número) 
 
