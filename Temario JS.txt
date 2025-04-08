@@ -9,14 +9,21 @@ Ejercicios-----------
 codicionales (IF. IF ELSE, Switch)
 bucles (do while, for, while)
 Ejercicios-----------
-Funciones
+--Funciones
 Parametros(rest)
 funciones callback
 funciones anidadas
-ambito, scope
+funciones anonimas
+ambito scope. Hoisting, lexico
+--Arreglos
+Introducción a Arrays
+Mutabilidad e inmutabilidad de Arrays
+Modificación básica del final con push( ), pop( )
+Iteración con map( ) y forEach( )
+Filtrado y reducción con filter( ) y reduce( )
+Búsqueda de elementos con find( ) y findIndex( )
+Crear copias con slice( )
+Spread operator: casos de uso
 
-Arrow function y enlace léxico
-Contextos de ejecución y scope chain
-¿Qué es Closure?
 NaN es Not-A-Number (No es Un Número) 
 
