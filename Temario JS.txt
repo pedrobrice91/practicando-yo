@@ -14,10 +14,11 @@ Parametros(rest)
 funciones callback
 funciones anidadas
 funciones anonimas
+la recursividad
 ambito scope. Hoisting, lexico
 --Arreglos
-Introducción a Arrays
 Mutabilidad e inmutabilidad de Arrays
+boocles for in, for of 
 Modificación básica del final con push( ), pop( )
 Iteración con map( ) y forEach( )
 Filtrado y reducción con filter( ) y reduce( )
