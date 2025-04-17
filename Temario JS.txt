@@ -5,10 +5,12 @@ consvension de tipos Castin y coercion
 operadores de comparacion
 operadores logicos
 Ejercicios-----------
+
 --Estructura de control y logica
 codicionales (IF. IF ELSE, Switch)
-bucles (do while, for, while)
+bucles, loops (do while, for, while)
 Ejercicios-----------
+
 --Funciones
 Parametros(rest)
 funciones callback
@@ -16,15 +18,26 @@ funciones anidadas
 funciones anonimas
 la recursividad
 ambito scope. Hoisting, lexico
+
 --Arreglos
 Mutabilidad e inmutabilidad de Arrays
-boocles for in, for of 
-Modificación básica del final con push( ), pop( )
+boocles array (for in, for of)
 Iteración con map( ) y forEach( )
 Filtrado y reducción con filter( ) y reduce( )
 Búsqueda de elementos con find( ) y findIndex( )
 Crear copias con slice( )
 Spread operator: casos de uso
+array multidimeccional, array bidimecional, array tridimencional
+
+
+
+
+
+
+
+
+
+
 
 NaN es Not-A-Number (No es Un Número) 
 
