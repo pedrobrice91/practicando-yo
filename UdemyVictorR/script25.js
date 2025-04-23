@@ -6,8 +6,19 @@ Si aciérta muestra un mensaje de celebración si no,
 muestra el numero correcto.
  */
 
-const numAleatorio = function(){
+let num1 = Math.floor(Math.random()*101);
+let num2 = Math.floor(Math.random()*101);
+let num3 = Math.floor(Math.random()*101);
+let num4 = Math.floor(Math.random()*101);
+let num5 = Math.floor(Math.random()*101);
+let num6 = Math.floor(Math.random()*101);
+let num7 = Math.floor(Math.random()*101);
+let num8 = Math.floor(Math.random()*101);
+let num9 = Math.floor(Math.random()*101);
+let num10 = Math.floor(Math.random()*101);
 
-}
 
-let num1 = Math.floor(Math.random()* 3)
+let arreglo = new Array(num1, num2, num3, num4, num5, num6, num7, num8, num9, num10)
+let userAdivina = parseInt(prompt("Adivina el primer valor del arreglo"))
+console.log(userAdivina)
+
