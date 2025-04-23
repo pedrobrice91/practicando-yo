@@ -1,48 +1,24 @@
-// Agrega 2 números enteros aleatorios a la lista arr (no necesitas un loop o bucle) e imprime el array en la consola.
-//Puedes usar las funciones Math.random() y Math.floor() para obtener números aleatorios.
-
-let arr = [4,5,734,43,45];
-
-let num1 = Math.floor(Math.random()*50)
-let num2 = Math.floor(Math.random()*50)
-let num3 = Math.floor(Math.random()*50)
-let num4 = Math.floor(Math.random()*50)
-let num5 = Math.floor(Math.random()*50)
-
-let arr2 = arr.push(num1, num2, num3, num4, num5)
-
-console.log(arr)
-
-
-while(arr.length < 15){
-    let num = Math.floor(Math.random()*50)
-    arr = arr.push(num)
-    
-}
-
-/* En un restaurante se reciben pedidos de comida a domicilio. 
-Vamos a escribir una función procesarPedido que recibe un pedido, 
-que es un array de platos. Lo que debemos hacer es:
-
-El primer elemento lo sacamos del array, ya que es el nombre del cliente.
-Añadimos al principio del array la cadena de texto "bebida", ya que es una promoción que tenemos.
-Después añadimos al final del array el nombre del usuario que sacamos antes.
-Recuerda que debes devolver el array modificado:
+/* Dada una lista de números, 
+escribe una función en JavaScript que devuelva la suma de todos 
+los números pares en la lista. La función deberá iterar sobre 
+cada número en la lista, comprobar si el número es par y, 
+si es así, añadirlo a la suma total. Usa el bucle que quieras 
+para solucionarlo.
 
  */
-let pedido = ["Pedro", "pizza Margarita", "torta tres leches"]
 
-let pedido2 = ["Juan", "pizza Española", "Palitos de queso"]
+let numbers = [1,2,3,4,5];
 
-
-function procesarPedido(pedidos) {
-
-pedidos.push(pedidos[0])  
-  
-let pedidoNew = pedidos.shift()
-
-pedidos.unshift("bebida")
-return pedidos
+const SumPares = (num)=> {
+let suma = 0;
+num.forEach(function(element){
+if (element % 2 === 0){
+suma += element
 }
-
-console.log(procesarPedido(pedido2))
+} )
+  return `la sumatoria de los numeros pares es ${suma}`
+}
+document.write("<h1>Soy el titulo </h1>")
+console.log(SumPares(numbers))
+document.write("<h1>"+SumPares(numbers)+"</h1>")
+                    

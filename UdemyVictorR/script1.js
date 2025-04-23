@@ -1,19 +1,37 @@
-/* Ejer 1
-Calcula cuantas horas le llevaria llegar a la luna a una nave espacial y 
-guarda el resultado en una variable
-La distancia desde la tierra hasta la luna es de 384.400 km
-La velocidad de la nave es de 1225 km por hora 
+/* 
+Crea un programa que calcule el Índice de Masa Corporal (IMC) de una persona. 
+El IMC se calcula con la fórmula:
 
-fórmula básica de tiempo = distancia / velocidad. */
+IMC= peso /altura 2
+IMC= altura 2 peso
 
-let distancia = 384400;
-let velocidad = 1225;
-let tiempoHoras = distancia / velocidad;
+Donde el peso está en kilogramos y la altura en metros.
+Pide al usuario que ingrese su peso y altura.
 
-let redondear = tiempoHoras.toFixed(2)// quitarle el 0.
+Muestra un mensaje indicando si la persona tiene:
+Bajo peso (IMC < 18.5)
+Peso normal (18.5 ≤ IMC < 25)
+Sobrepeso (25 ≤ IMC < 30)
+Obesidad (IMC ≥ 30)
 
-let horas = Math.floor(redondear) // saco las horas
+altura2 = 1.75 * 1.75 = 3.0625
+imc = 68.5 / 3.0625 = 22.36
 
-let minutos = Math.round((tiempoHoras - horas) * 60)
+Y mostrará:
+"Hola [nombre], tu IMC es: 22.36" */
 
-alert("Si vas de la tierra a la luna, te demorarias " + horas + " horas " + " y " + minutos + " minutos ")
+
+let name = prompt("Dinos tu nombre")
+
+let peso = prompt("Dinos tu peso")
+peso = parseFloat(peso)
+
+let altura = prompt("Dinos tu altura")
+altura = parseFloat(altura)
+
+let altura2 = altura * 2
+
+let imc = peso / altura2
+
+console.log(`Hola ${name}, tu IMC es: ${imc.toFixed(2)}`);
+

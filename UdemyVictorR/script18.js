@@ -1,17 +1,6 @@
-/* 
-Tenemos una coleccion de numeros desde el 1 al 17
-y el usuario tiene que adivinar cual es el elegido
-haz un programa para que pueda adivinar el numero
- */
-
-let aleatorioPC;
-let user;
-
-do{
-    user = parseInt(prompt("Adivina el numero que eligio el PC"))
-    aleatorioPC = Math.round(Math.random()*17)
-    alert("El PC escogio "+ aleatorioPC + " y El usuario dijo "+ user)
-}
-while(user != aleatorioPC){
-    alert("Adivinastes")
-}
+/* Recibes una lista de números. Debes ordenar los números de menor a mayor
+ según su valor absoluto. Eso quiere decir que los números negativos pierden
+el signo y se ordenan como si fueran positivos.
+Por ejemplo, si recibes [5, -10, -2, -25, -7] deberías devolver [-2, 5, -7, -10, -25].
+Puedes usar el método Math.abs(num) para obtener el valor absoluto de un número. 
+*/

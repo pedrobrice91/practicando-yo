@@ -1,14 +1,15 @@
-//dime si es par o impar 
 
+/* 
+Recibimos una matriz de cadenas de texto. Tenemos que localizar la posición de la palabra "JavaScript" en la matriz y devolver su posición como un array de dos elementos: el índice de la fila y el índice de la columna.
 
-let numero = 0;
-while(!isNaN(numero)){
+const matrix = [
+  ['HTML', 'CSS', 'JavaScript'],
+  ['Java', 'C++', 'Python'],
+  ['Ruby', 'Go', 'Swift']
+]
 
-    numero = parseInt(prompt("ingresa tu numero"))
-
-    console.log(isNaN(numero))
-if ((numero % 2) === 0){
-        console.log("Es par")
-}else{
-    console.log("Es impar")}
-}
+const position = findJavaScript(matrix)
+console.log(position) // -> [0, 2]
+Si no encuentra la palabra debe devolver [-1, -1]. 
+Usa el siguiente código como punto de partida:
+*/

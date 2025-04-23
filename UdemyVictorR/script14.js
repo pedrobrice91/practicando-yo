@@ -1,14 +1,14 @@
-/* Un DJ no sabe que genero musical poner en la fiesta
-Preguntale al usuario que genero quiere(pop, rock, rap)
-segun lo que prefiera devuelve un mensaje diferente */
+//dime si es par o impar 
 
-let musicaCliente = prompt("Me indicas que genero quieres escuchar")
 
-if (musicaCliente === "pop") {
-    alert("Britney Spears - Baby One More Time");
-}
-else if (musicaCliente === "rock") {
-    alert("Metallica - One");
-} else if (musicaCliente === "rap") {
-    alert("Drake - One dance")
+let numero = 0;
+while(!isNaN(numero)){
+
+    numero = parseInt(prompt("ingresa tu numero"))
+
+    console.log(isNaN(numero))
+if ((numero % 2) === 0){
+        console.log("Es par")
+}else{
+    console.log("Es impar")}
 }

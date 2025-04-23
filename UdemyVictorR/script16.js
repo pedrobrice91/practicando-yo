@@ -1,14 +1,27 @@
-/* Escriba un programa que indique la tabla de multiplicar del numero que indique el usuario */
+
+/* En un restaurante se reciben pedidos de comida a domicilio. 
+Vamos a escribir una función procesarPedido que recibe un pedido, 
+que es un array de platos. Lo que debemos hacer es:
+
+El primer elemento lo sacamos del array, ya que es el nombre del cliente.
+Añadimos al principio del array la cadena de texto "bebida", ya que es una promoción que tenemos.
+Después añadimos al final del array el nombre del usuario que sacamos antes.
+Recuerda que debes devolver el array modificado:
+
+ */
+let pedido = ["Pedro", "pizza Margarita", "torta tres leches"]
+
+let pedido2 = ["Juan", "pizza Española", "Palitos de queso"]
 
 
-let number ;
+function procesarPedido(pedidos) {
 
-number = parseInt(prompt(`Ingresa el numero que quieres multiplicar`))
+pedidos.push(pedidos[0])  
+  
+let pedidoNew = pedidos.shift()
 
-if (isNaN(number))
-    console.log("Debes ingresar un numero")
-else {
-    for (let i = 1; i < 10; i++ ){
-    console.log(number + " X " + i + ":" +(number*i))
+pedidos.unshift("bebida")
+return pedidos
 }
-}
+
+console.log(procesarPedido(pedido2))

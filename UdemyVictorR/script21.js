@@ -1,33 +1,10 @@
-/* Calculadora: 
-pida dos numeros por pantalla
-si metemos uno mal que nos los vuelva a pedir
-en una alerta y por la consola el resultado de 
-sumar, restar, multiplicar y dividir esas dos cifras */
 
-let number1;
-let number2;
-
-while ((isNaN(number1) || isNaN(number2)) || (isNaN(number2) || isNaN(number1))) {
-
-    number1 = parseInt(prompt("Ingresa un numero"))
-    number2 = parseInt(prompt("Ingresa un numero"))
-
-    if ((number1 > 0) && (number2 > 0)) {
-        console.log(number1 + " + " + number2 + " = " + (number1 + number2))
-        console.log(number1 + " - " + number2 + " = " + (number1 - number2))
-        console.log(number1 + " * " + number2 + " = " + (number1 * number2))
-        console.log(number1 + " / " + number2 + " = " + (number1 / number2))
-
-        alert(`${number1} + ${number2}`)
-        alert(`${number1} - ${number2}`)
-        alert(`${number1} * ${number2}`)
-        alert(`${number1} / ${number2}`)
-
-    } else {
-        alert("Intenta de nuevo")
-    }
-
-}
+/* 
+En una biblioteca queremos saber qué libro es el que menos páginas tiene 
+y el que más páginas. Por suerte, no hay dos libros con el mismo número de páginas.
 
 
-
+Necesitamos que la función reciba un array de números, sin ordenar, y que devuelva 
+un array de dos posiciones con el índice del libro con menos páginas y el índice del 
+libro con más páginas.
+*/

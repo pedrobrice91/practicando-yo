@@ -1,13 +1,5 @@
-/* mostrar todos los numeros impares que hay entre dos numeros que nos de el usuario */
+/* Crear una función que reciba un array de palabras y devuelva true
+si todas las palabras terminan con la letra "a" y false si al menos una palabra no termina con la letra "a".
+Usa el método endsWith() de string para resolverlo.
+ */
 
-let number1;
-let number2;
-
-number1 = parseInt(prompt("Introduce el primer numero"));
-number2 = parseInt(prompt("Introduce el segundo numero"));
-
-for (let i = 0; number1 <= number2; number1++){
-    if ((number1 % 2) === 0){
-    }else
-        console.log("El numero "+ number1 + " es impar")
-}

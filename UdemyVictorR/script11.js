@@ -1,12 +1,14 @@
-/* Nuestros usuarios tienen perros.
-y quieren saber que edad de perro tienen sus mascotas
-un año de humano equivale a siete de perro
-pregunta a los usuarios que edad tiene su perro
- y dile la edad canina */
+/* mostrar todos los numeros impares que hay entre 
+dos numeros que nos de el usuario */
 
-let edad = prompt("Que edad tiene tu perro")
+let number1;
+let number2;
 
-edad = parseInt(edad)
-let neweEdad = edad * 7
+number1 = parseInt(prompt("Introduce el primer numero"));
+number2 = parseInt(prompt("Introduce el segundo numero"));
 
-alert(`tu perro tiene ${neweEdad} años en edad de perro`)
+for (let i = 0; number1 <= number2; number1++){
+    if ((number1 % 2) === 0){
+    }else
+        console.log("El numero "+ number1 + " es impar")
+}

@@ -1,24 +1,12 @@
-/* 
-Crea un array con 10 números aleatorios de 1 a 100. 
-Luego pide al usuario que adivine un número	.
+/* Crea un array de ingredientes para una receta absurda 
+(Como una pizza con chocolate y piña).
+Muestra la receta completa en una frase divertida. 
+*/
 
-Si aciérta muestra un mensaje de celebración si no, 
-muestra el numero correcto.
- */
+let ingredientes = ["azucar", "mermelada", "pizza", "Chocolate", "Atun"];
 
-let num1 = Math.floor(Math.random()*101);
-let num2 = Math.floor(Math.random()*101);
-let num3 = Math.floor(Math.random()*101);
-let num4 = Math.floor(Math.random()*101);
-let num5 = Math.floor(Math.random()*101);
-let num6 = Math.floor(Math.random()*101);
-let num7 = Math.floor(Math.random()*101);
-let num8 = Math.floor(Math.random()*101);
-let num9 = Math.floor(Math.random()*101);
-let num10 = Math.floor(Math.random()*101);
+const recetaDeLaNona = function(ingredient){
+    return console.log(`${ingredient[2]} crujiente cubierta con ${ingredient[1]} dulce, trozos de ${ingredient[4]} jugoso, ralladura de ${ingredient[3]} y un toque final de ${ingredient[0]} espolvoreada!`)
+}
 
-
-let arreglo = new Array(num1, num2, num3, num4, num5, num6, num7, num8, num9, num10)
-let userAdivina = parseInt(prompt("Adivina el primer valor del arreglo"))
-console.log(userAdivina)
-
+recetaDeLaNona(ingredientes)

@@ -1,32 +1,33 @@
-/* Muestra la suma y la media de los numeros introducidos 
-hasta introducir un numero negativo y ahi mostrar el resultado
+/* Calculadora: 
+pida dos numeros por pantalla
+si metemos uno mal que nos los vuelva a pedir
+en una alerta y por la consola el resultado de 
+sumar, restar, multiplicar y dividir esas dos cifras */
 
-Por ejemplo, el usuario podría hacer algo como:
-Introducir 5
-Luego 10
-Luego 3
-Luego 7
-Finalmente -1 (número negativo que detiene el programa)
+let number1;
+let number2;
 
-El programa entonces calcularía:
+while ((isNaN(number1) || isNaN(number2)) || (isNaN(number2) || isNaN(number1))) {
 
-Suma: 5 + 10 + 3 + 7 = 25
-Media: 25 ÷ 4 = 6.25
-*/
+    number1 = parseInt(prompt("Ingresa un numero"))
+    number2 = parseInt(prompt("Ingresa un numero"))
 
-let numberOne;
-let contador = 0;
-let numeroSumado = 0;
-do {
-    numberOne = parseInt(prompt("Introduce un numero"))
+    if ((number1 > 0) && (number2 > 0)) {
+        console.log(number1 + " + " + number2 + " = " + (number1 + number2))
+        console.log(number1 + " - " + number2 + " = " + (number1 - number2))
+        console.log(number1 + " * " + number2 + " = " + (number1 * number2))
+        console.log(number1 + " / " + number2 + " = " + (number1 / number2))
 
-    if (numberOne > 0) {
-        numeroSumado += numberOne
-        contador++
+        alert(`${number1} + ${number2}`)
+        alert(`${number1} - ${number2}`)
+        alert(`${number1} * ${number2}`)
+        alert(`${number1} / ${number2}`)
 
     } else {
-        
-        console.log("la media es " + numeroSumado / contador)
-        console.log("la suma es " + numeroSumado)
+        alert("Intenta de nuevo")
     }
-} while (numberOne > 0)
+
+}
+
+
+

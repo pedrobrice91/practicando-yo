@@ -1,27 +1,3 @@
-Ejercicio 1: Calculadora de IMC (Índice de Masa Corporal)
-Crea un programa que calcule el Índice de Masa Corporal (IMC) de una persona. El IMC se calcula con la fórmula:
-
-IMC= peso /altura 2
-IMC= altura 2 peso
-​
- 
-Donde el peso está en kilogramos y la altura en metros.
-
-Pide al usuario que ingrese su peso y altura.
-
-Calcula el IMC.
-
-Muestra un mensaje indicando si la persona tiene:
-
-Bajo peso (IMC < 18.5)
-
-Peso normal (18.5 ≤ IMC < 25)
-
-Sobrepeso (25 ≤ IMC < 30)
-
-Obesidad (IMC ≥ 30)
-
---------------------------------------------
 
 Ejercicio 2: Conversor de Monedas
 Crea un programa que convierta una cantidad de dinero de una moneda a otra. El programa debe:
@@ -72,38 +48,6 @@ Invierte la frase y la muestra.
 
 Convierte la frase a mayúsculas y luego a minúsculas.
 
-Ejercicio 7: Calculadora de Factorial
-Crea un programa que calcule el factorial de un número. El factorial de un número 
-n
-n se define como:
-
-n
-!
-=
-n
-×
-(
-n
-−
-1
-)
-×
-(
-n
-−
-2
-)
-×
-…
-×
-1
-n!=n×(n−1)×(n−2)×…×1
-Pide al usuario que ingrese un número entero positivo.
-
-Calcula su factorial.
-
-Muestra el resultado.
-
 Ejercicio 8: FizzBuzz
 Escribe un programa que imprima los números del 1 al 100, pero:
 
@@ -152,55 +96,6 @@ Pedir al usuario que ingrese una palabra o frase.
 Ignorar espacios y mayúsculas/minúsculas.
 
 Mostrar un mensaje indicando si es un palíndromo o no.
-
-Ejercicio 13: Calculadora de Interés Compuesto
-Crea un programa que calcule el interés compuesto. La fórmula del interés compuesto es:
-
-A
-=
-P
-×
-(
-1
-+
-r
-n
-)
-n
-t
-A=P×(1+ 
-n
-r
-​
- ) 
-nt
- 
-Donde:
-
-A
-A es el monto final.
-
-P
-P es el capital inicial.
-
-r
-r es la tasa de interés anual.
-
-n
-n es el número de veces que se aplica el interés por año.
-
-t
-t es el tiempo en años.
-
-El programa debe pedir al usuario que ingrese los valores de 
-P
-P, 
-r
-r, 
-n
-n y 
-t
-t, y mostrar el monto final.
 
 Ejercicio 14: Generador de Tablas de Multiplicar
 Crea un programa que genere la tabla de multiplicar de un número dado. El programa debe:

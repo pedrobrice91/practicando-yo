@@ -1,24 +1,30 @@
-/* Dada una lista de números, 
-escribe una función en JavaScript que devuelva la suma de todos 
-los números pares en la lista. La función deberá iterar sobre 
-cada número en la lista, comprobar si el número es par y, 
-si es así, añadirlo a la suma total. Usa el bucle que quieras 
-para solucionarlo.
+/* 
+Crea un array con 10 números aleatorios de 1 a 100. 
+Luego pide al usuario que adivine un número	.
 
+Si aciérta muestra un mensaje de celebración si no, 
+muestra el numero correcto.
  */
 
-let numbers = [1,2,3,4,5];
+let num1 = Math.floor(Math.random()*101);
+let num2 = Math.floor(Math.random()*101);
+let num3 = Math.floor(Math.random()*101);
+let num4 = Math.floor(Math.random()*101);
+let num5 = Math.floor(Math.random()*101);
+let num6 = Math.floor(Math.random()*101);
+let num7 = Math.floor(Math.random()*101);
+let num8 = Math.floor(Math.random()*101);
+let num9 = Math.floor(Math.random()*101);
+let num10 = Math.floor(Math.random()*101);
 
-const SumPares = (num)=> {
-let suma = 0;
-num.forEach(function(element){
-if (element % 2 === 0){
-suma += element
-}
-} )
-  return `la sumatoria de los numeros pares es ${suma}`
-}
-document.write("<h1>Soy el titulo </h1>")
-console.log(SumPares(numbers))
-document.write("<h1>"+SumPares(numbers)+"</h1>")
-                    
+
+let arreglo = new Array(num1, num2, num3, num4, num5, num6, num7, num8, num9, num10)
+console.log(arreglo)
+let userAdivina = parseInt(prompt("Adivina el primer numero del array es del 1 al 100"))
+
+  if (userAdivina === arreglo[0]){
+    alert("Felicidades, acertaste")
+  }else {
+    alert(`No no, Es el numero ${arreglo[0]} el correcto. `)
+  }
+

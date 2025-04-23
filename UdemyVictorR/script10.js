@@ -1,17 +1,15 @@
-/* Ejer 3
+/* Escriba un programa que indique la tabla de 
+multiplicar del numero que indique el usuario */
 
-El otro día fui con mi amigo Pepe y Manolo a un restaurante de smash burguers
 
-Yo me comi 2 
-pepe se comio 3
-manolo se comio 6
+let number ;
 
-cuantas hamburguesas nos comimos en total y Es cierto que yo comi menos que Pepe 
- */
+number = parseInt(prompt(`Ingresa el numero que quieres multiplicar`))
 
-let manoloComio = 6;
-let pepeComio = 3;
-let yo = 2;
-
-console.log("En total nos comimos " + (manoloComio + pepeComio + yo) + " Burguers")
-console.log("Es cierto que yo comi menos que PEPE " + (yo < pepeComio)) 
+if (isNaN(number))
+    console.log("Debes ingresar un numero")
+else {
+    for (let i = 1; i < 10; i++ ){
+    console.log(number + " X " + i + ":" +(number*i))
+}
+}
