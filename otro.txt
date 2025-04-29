@@ -1,0 +1,88 @@
+const producto = 'Monitor 20 Pulgadas ';
+const nombre = "Juan";
+
+//producto.indexOf("Pulgadas")
+//producto.includes('Monitor')
+//producto.concat('En Descuento')
+
+// Eliminar el inicio
+producto.trimStart(); // Elimina todos los espacios en blancos del inicio
+producto.trimEnd(); // Elimina todos los espacios en blancos del final
+
+// Los métodos en javaScript se pueden encadenar, es decir, colocarse uno junto al otro
+producto.trimStart().trimEnd(); // Cortar en ambas direcciones
+
+// Un método (que ya tiene rato ) es trim que hace lo mismo
+producto.trim().length;
+
+console.log(producto.replace("20", "24"));
+console.log( producto.slice(0, 10)); // Iniciar en 0 y cortar hasta 10
+console.log(nombre.substring(0,1));
+console.log(nombre.charAt(0));
+
+console.log(producto.repeat(3));
+
+// Split
+const actividad = 'Estoy aprendiendo Javascript Moderno';
+console.log(actividad.split(" "));
+const cantidad = 200;
+console.log(cantidad.toString());
+
+
+
+
+
+--------------------------------------
+
+
+
+Métodos de instancia
+String.prototype.anchor()Obsoleto
+String.prototype.at()
+String.prototype.big()Obsoleto
+String.prototype.blink()Obsoleto
+String.prototype.bold()Obsoleto
+String.prototype.charAt()
+String.prototype.charCodeAt()
+String.prototype.codePointAt()
+String.prototype.concat()El método **`concat()`** combina dos o más cadenas de texto y devuelve una cadena de texto nueva.
+String.prototype.endsWith()
+String.prototype.fixed()Obsoleto
+String.prototype.fontcolor()Obsoleto
+String.prototype.fontsize()Obsoleto
+String.prototype.includes()determina si una cadena de texto puede ser encontrada dentro de otra cadena de texto, devolviendo **`true`** o **`false`** según corresponda.
+String.prototype.indexOf() devuelve el índice, comenzando la búsqueda desde indiceDesde; o -1 si no se encuentra dicho valor.
+String.prototype.isWellFormed()
+String.prototype.italics()Obsoleto
+String.prototype.lastIndexOf()
+String.prototype.link()Obsoleto
+String.prototype.localeCompare()
+String.prototype.match()
+String.prototype.matchAll()
+String.prototype.normalize()
+String.prototype.padEnd()
+String.prototype.padStart()
+String.prototype.repeat()
+String.prototype.replace()
+String.prototype.replaceAll()
+String.prototype.search()
+String.prototype.slice()
+String.prototype.small()Obsoleto
+String.prototype.split()
+String.prototype.startsWith()
+String.prototype.strike()Obsoleto
+String.prototype.sub()Obsoleto
+String.prototype.substr()Obsoleto
+String.prototype.substring()
+String.prototype.sup()Obsoleto
+String.prototype.toLocaleLowerCase()
+String.prototype.toLocaleUpperCase()
+String.prototype.toLowerCase()
+String.prototype.toString()
+String.prototype.toUpperCase()
+String.prototype.toWellFormed()
+String.prototype.trim()
+String.prototype.trimEnd()
+String.prototype.trimStart()
+String.prototype.valueOf()
+
