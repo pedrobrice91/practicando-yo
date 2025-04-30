@@ -8,7 +8,7 @@ Ejercicios-----------
 
 --Estructura de control y logica
 codicionales (IF. IF ELSE, Switch)
-bucles, loops (do while, for, while)
+iteradores, bucles, loops (do while, for, while)
 Ejercicios-----------
 
 --Funciones
@@ -18,21 +18,16 @@ funciones anidadas
 funciones anonimas
 la recursividad
 ambito scope. Hoisting, lexico
+Spread operator:tambien aqui
 
 --Arreglos
 Mutabilidad e inmutabilidad de Arrays
-boocles array (for in, for of)
-Iteración con map( ) y forEach( )
-Filtrado y reducción con filter( ) y reduce( )
-Búsqueda de elementos con find( ) y findIndex( )
-Crear copias con slice( )
+Iteracion o boocles array (for in, for of)
+Filtrado, Transformación y reducción con filter(), reduce(), map()
+Búsqueda de elementos find(), findIndex(), some(), every() 
+Crear copias con slice()
 Spread operator: casos de uso
 array multidimeccional, array bidimecional, array tridimencional
-
-
-
-
-
 
 
 
