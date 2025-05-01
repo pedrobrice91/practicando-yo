@@ -7,18 +7,14 @@ const producto = {
     disponible: true, // el último elemento puede o no tener la ,
 }
 
-
 // const nombre = producto.nombre;
-
-
-
 
 // Otra forma de hacerlo y que también es nueva, es con algo llamado object destructuring...
 
-// Destructuring significa, sacar de una esctructura, puede ser complejo, no lo es tanto sobretodo cuando lo practicas
+// Destructuring significa, sacar de una esctructura, puede ser complejo, no lo es tanto 
+//sobretodo cuando lo practicas
 
 const { nombre } = producto;
-
 
 // si deseas extraer más variables;
 const { precio } = producto;
