@@ -17,7 +17,9 @@ const producto1 = {
 }
 
 const producto2 = {
-    nombre: 'Monitor 20 pulgadas' // Nota como en lugar del signo igual se utilizan : , esta sintaxis es propia de los objetos y representa el valor que tendrá la propiedad o la llave del objeto, muchas veces se les dice llave valor
+    nombre: 'Monitor 20 pulgadas' // Nota como en lugar del signo igual se utilizan : , 
+    // esta sintaxis es propia de los objetos y representa el valor que tendrá la propiedad
+    //  o la llave del objeto, muchas veces se les dice llave valor
 }
 
 // si deseas agregar más propiedades puedes hacerlo de la siguiente forma

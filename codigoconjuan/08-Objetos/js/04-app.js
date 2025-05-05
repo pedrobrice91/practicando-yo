@@ -1,4 +1,5 @@
-// Un objeto puede contener cualquier tipo de dato dentro de el, incluso puede tener otros objetos:, esto se le conoce como Objetos anidados.
+// Un objeto puede contener cualquier tipo de dato dentro de el, 
+// incluso puede tener otros objetos:, esto se le conoce como Objetos anidados.
 
 
 const producto = {

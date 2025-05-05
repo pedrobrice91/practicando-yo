@@ -29,20 +29,18 @@ Crear copias con slice()
 Spread operator: casos de uso
 array multidimeccional, array bidimecional, array tridimencional
 
-
 ---Programación Orientada a Objetos
 Programación Orientada a Objetos en JavaScript: Conceptos y Práctica
 Creación y Manipulación de Objetos en JavaScript
 Función constructora y gestión de instancias en JavaScript
-Clases en JavaScript: Creación y Uso de Objetos con Sintaxis Moderna
+
+---Clases en JavaScript: Creación y Uso de Objetos con Sintaxis Moderna
 Programación Orientada a Objetos en JavaScript: Clases y Prototipos
 Prototipos y Herencia en JavaScript: Construcción y Uso Práctico
 Métodos y herencia prototípica en JavaScript
 Uso de "this" en Clases y Funciones Constructoras
 Validación de Usuarios en una Red Social: Algoritmo Básico
 Implementación de la Función Sign-In y Validación de Usuario
-
-
 
 NaN es Not-A-Number (No es Un Número) 
 
