@@ -44,3 +44,65 @@ Implementación de la Función Sign-In y Validación de Usuario
 
 NaN es Not-A-Number (No es Un Número) 
 
+const persona2 = new Object();
+const colores = new Array("rojo", "verde", "azul");
+person.luckyNumbers.forEach((elem)=> { contador += elem })
+
+
+
+
+var person = {
+    name: "John",                //String
+    lastName: "Doe",
+    age: 35,                     //Number
+    gender: "male",
+    luckyNumbers: [7, 11, 13, 17], //Array
+    significantOther: person2   //Object, yes, the same variable/object defined after
+};
+
+var person2 = {
+    name: "Jane",
+    lastName: "Doe",
+    age: 38,
+    gender: "female",
+    luckyNumbers: [2, 4, 6, 8],
+    significantOther: person
+};
+
+var family = {
+    lastName: "Doe",
+    members: [person, person2]   //Array of objects, don't forget to add Jimmy
+};
+
+
+function addAllFamilyLuckyNumbers(anArray){
+  let sumOfAllLuckyNumbers = 0; //sumOfAllLuckyNumbers is a number, the sum of all lucky numbers.
+
+  //To-Do: loop and add; consider nested loops
+  //Hint: use the anArray variable to get all of the lucky numbers
+  contador1=0;
+  contador2=0;
+  contador3=0;
+
+family.members[0].luckyNumbers.forEach((elem) => { contador1 += elem})
+family.members[1].luckyNumbers.forEach((elem) => { contador2 += elem})
+family.members[2].luckyNumbers.forEach((elem) => { contador3 += elem})
+  sumOfAllLuckyNumbers = contador1 + contador2 + contador3;
+  
+  return sumOfAllLuckyNumbers;
+}
+
+//Enter all your code here:
+person.luckyNumbers[3] = 33;
+let person3 = new Object();
+person3.name = "Jimmy ";
+person3.lastName = "Doe";
+person3.age = 13;
+person3.gender = "male";
+person3.luckyNumbers = [1, 2, 3, 4];
+person3.significantOther = null;
+
+family.members.push(person3);
+
+//Do not make changes below:
+console.log(addAllFamilyLuckyNumbers(family.members)); 
