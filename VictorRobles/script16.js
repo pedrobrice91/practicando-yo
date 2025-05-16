@@ -1,4 +1,3 @@
-
 /* En un restaurante se reciben pedidos de comida a domicilio. 
 Vamos a escribir una función procesarPedido que recibe un pedido, 
 que es un array de platos. Lo que debemos hacer es:
@@ -9,19 +8,19 @@ Después añadimos al final del array el nombre del usuario que sacamos antes.
 Recuerda que debes devolver el array modificado:
 
  */
-let pedido = ["Pedro", "pizza Margarita", "torta tres leches"]
 
-let pedido2 = ["Juan", "pizza Española", "Palitos de queso"]
+const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio"];
 
+let pedido2 = ["Juan", "pizza Española", "Palitos de queso"];
 
 function procesarPedido(pedidos) {
+  pedidos.push(pedidos[0]);
 
-pedidos.push(pedidos[0])  
-  
-let pedidoNew = pedidos.shift()
+  pedidos.shift();
 
-pedidos.unshift("bebida")
-return pedidos
+  pedidos.unshift("bebida");
+
+  return pedidos;
 }
 
-console.log(procesarPedido(pedido2))
+console.log(procesarPedido(pedido2));
