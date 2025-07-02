@@ -11,10 +11,6 @@ Puedes usar React con Webpack, Vite, Parcel, Next.js, etc.
 Puedes escribir en JavaScript o TypeScript.
 Puedes manejar rutas con React Router o frameworks como Next.js.
 
-npx create-react-app nombreProyecto
-Si quieres una alternativa más moderna:
-npm create vite@latest nombre-proyecto -- --template react
-
 src > components todos los archivos van en mayus
 
 | Tipo          | ¿Devuelve valor? | ¿Permite usar en JSX? | Ejemplo                    |
