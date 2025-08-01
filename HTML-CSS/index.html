@@ -10,15 +10,15 @@
 </head>
 
 <body>
-    <div class="Navbar">
-        <div class="hero-content">
-            <h1 class="text-title">Savor The Moment</h1>
-            <input class="button" type="button" value="Reserve now">
+    <header class="hero-navbar">
+        <div class="navbar-section">
+            <h1 class="navbar-title">Savor The Moment</h1>
+            <input class="navbar-button" type="button" value="Reserve now">
         </div>
-    </div>
-    <div class="heroSecction">
-        <section class="N1">
-            <h3>About US</h3>
+    </header>
+    <section class="hero-section">
+        <section class="section-about-us">
+            <h3 class="title">About US</h3>
             <p class="intro-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero asperiores eaque in
                 dicta quos quam
                 explicabo
@@ -26,71 +26,70 @@
                 voluptatem.
             </p>
         </section>
-        <section>
-            <h3>Featured Menu</h3>
-            <div class="card">
-                <img src="" alt="" sizes="" srcset="">
+        <section class="section-menu">
+            <h3 class="title">Featured Menu</h3>
+            <div class="menu-card">
+                <img src="./img/food-4k-diner.jpg" alt="" sizes="" srcset="">
                 <span>salmon</span>
                 <span>$24</span>
             </div>
-            <div><img src="" alt="" sizes="" srcset="">
-                <span>Biste</span>
+            <div class="menu-card">
+                <img src="./img/food-4k-drink.jpg" alt="" sizes="" srcset="">
+                <span>Bistec</span>
                 <span>$24</span>
             </div>
-            <div>
-                <img src="" alt="" sizes="" srcset="">
-                <span>Biste</span>
+            <div class="menu-card">
+                <img src="./img/food-4k-yosa.jpg" alt="" sizes="" srcset="">
+                <span>Bistec one</span>
                 <span>$24</span>
             </div>
         </section>
-        <section>
-            <img src="" alt="" sizes="" srcset="">
+        <section class="img-chef">
+            <img src="./img/chef-pictures.jpg" alt="" sizes="" srcset="">
         </section>
-    </div>
-    <div class="MainHero">
-        <main>
-            <article>
-                <h3>Testimonials</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur est temriatur ipsum
-                    modi ab
-                    provident.</p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half"></i>
-            </article>
-            <article>
-                <h3>Location & Hours</h6>
-                    <span>
-                        122 Main Street,City. State 16045
-                    </span>
-                    <span>
-                        Mon - Fri
-                        9:00 pm - 10:00 pm
-                        Set - Sun
-                        10:00 pm - 11:00 pm
-                    </span>
-                    <img src="https://e7.pngegg.com/pngimages/228/554/png-clipart-google-maps-navigation-apple-maps-xda-developers-text-logo-thumbnail.png" alt="" sizes="" srcset="">
-            </article>
-            <article>
-                <form action="">
-                    <label for="">Name:</label>
-                    <input type="text" name="" id="">
-                    <br>
-                    <label for="">Date:</label>
-                    <input type="date" name="" id="">
-                    <br>
-                    <label for="Number person"></label>
-                    <input type="number" name="" id="">
-                    <br>
-                    <input type="button" value="Enviar">
-                </form>
-            </article>
-        </main>
-    </div>
-    <div>
-        <footer>
-            <a href="quienes somos"></a>
+    </section>
+    <main class="hero-main">
+        <article class="testimonials">
+            <h3>Testimonials</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur est temriatur ipsum
+                modi ab
+                provident.</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+        </article>
+        <article class="location">
+            <h3>Location & Hours</h3>
+            <span>
+                122 Main Street,City. State 16045
+            </span>
+            <span>
+                Mon - Fri 9:00 pm - 10:00 pm
+                Sat - Sun 10:00 pm - 11:00 pm
+            </span>
+            <img src="./img/pngegg.png" alt="" sizes="" srcset="">
+        </article>
+        <article class="reserve">
+            <h3>Reservation Form</h3>
+            <form action="">
+                <label for="date">Name:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="">Date:</label>
+                <input type="date" name="date" id="date">
+                <br>
+                <label for="">Num guests:</label>
+                <input type="number" name="guests" id="guests">
+                <br>
+                <input type="button" value="Submit">
+            </form>
+        </article>
+    </main>
+    <div class="hero-footer">
+        <footer class="footer">
+            <a href="#">quienes somos</a>
+            <a href="#">Redes sociales</a>
         </footer>
     </div>
 </body>
