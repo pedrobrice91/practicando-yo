@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-navbar{
+    background-image: URL(./img/food-4k-hero.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+.navbar-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.navbar-section h1{
+    color:rgb(249, 246, 243);
+    font-size: 500%;
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 0 black,
+               -1px 1px 0 black,
+               1px -1px 0 black,
+               -1px -1px 0 black;
+}
+.navbar-section input{
+    padding: 3% 3%;
+    background-color: #f0ad4e;
+    color: white;
+    border-radius: 5%;
+    border-color: burlywood;
+    font-size: 30px;
+    cursor: pointer;
+    font-variant: small-caps;
+}
+.hero-section{
+    padding: 50px 70px;
+    margin-top: 0;
+}
+.hero-section h1{
+     font-variant: small-caps;
+     font-size: 40px;
+     margin: 0;
+}
+.section-menu img{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
